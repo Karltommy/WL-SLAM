@@ -6,7 +6,7 @@
 The Package works in the Ubuntu 20.04 environment with the corresponding version of ROS.
 
 ### 1.2. **PCL && Eigen**
-PCL >= 1.8, Eigen >= 3.3.4.
+We use the PCL >= 1.8 and Eigen >= 3.3.4.
 
 ### 1.3. **livox_ros_driver**
 Follow [livox_ros_driver Installation](https://github.com/Livox-SDK/livox_ros_driver).
@@ -33,7 +33,7 @@ Clone the repository and catkin_make:
 
 ```
 cd ~/catkin_ws/src
-git clone 
+git clone https://github.com/Karltommy/WL-SLAM.git
 cd ../
 catkin_make
 source ~/catkin_ws/devel/setup.bash
@@ -49,7 +49,7 @@ roslaunch CloudMerging cloudmerg.launch
 roslaunch wheellegged_slam run.launch
 
 
-## 7. Acknowledgements
+## 5. Acknowledgements
 Thanks for the authors of [FAST-LIO](https://github.com/hku-mars/FAST_LIO).
 
 Thanks for the authors of [S-FAST-LIO](https://api.star-history.com/svg?repos=zlwang7/S-FAST_LIO&type=Date)
