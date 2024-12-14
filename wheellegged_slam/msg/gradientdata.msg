@@ -1,0 +1,3 @@
+float64 time
+float64 longitudinalgradient
+float64 lateralgradient

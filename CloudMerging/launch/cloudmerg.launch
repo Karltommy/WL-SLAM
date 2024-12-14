@@ -1,0 +1,6 @@
+<launch>
+     <param name="time_piancha" type="double" value="0.002" />
+     <rosparam command="load" file="$(find CloudMerging)/config/RT.yaml" />
+     <node name="CloudMerging" pkg="CloudMerging"  type="CloudMerging" output="screen">  
+   </node>
+</launch>
