@@ -50,18 +50,25 @@ source ~/catkin_ws/devel/setup.bash
 ```
 
 ## 3. Rosbag
-Here we provide a rosbag in the corridor scene.
+Here we provide a rosbag in the corridor scene. Please click the link to acquire this bag file: 
 
 
 ## 4. Run
-
+Run the CloudMerging launch file to obtain the merged LiDAR topic .
+```
 roslaunch CloudMerging cloudmerg.launch
+```
+Run the Wheel-Legged SLAM algorithm.
+```
 roslaunch wheellegged_slam run.launch
-
+```
+Run the rosbag file.
+```
+rosbag play corridor.bag
+```
 
 ## 5. Acknowledgements
-Thanks for the authors of [FAST-LIO](https://github.com/hku-mars/FAST_LIO).
-
-Thanks for the authors of [S-FAST-LIO](https://api.star-history.com/svg?repos=zlwang7/S-FAST_LIO&type=Date)
-
-Thanks for the authors of [LIO-SAM]
+This algorithm is based on the following work, and we would like to express our gratitude their authors.
+[FAST-LIO](https://github.com/hku-mars/FAST_LIO).
+[S-FAST-LIO](https://github.com/zlwang7/S-FAST_LIO)
+[LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
