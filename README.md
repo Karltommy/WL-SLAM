@@ -1,7 +1,7 @@
 # Wheel-Legged SLAM
 We proposed the Wheel-Legged SLAM: an indoor LiDAR-Inertial SLAM integrating kinematic model of wheel-legged robots, which contains:
 
-1) a taylored dual LiDAR system (including LIVOX AVIA and LIVOX MID360) to extend the robot's perception range.
+1) A taylored dual LiDAR system (including LIVOX AVIA and LIVOX MID360) to extend the robot's perception range.
 2) Two innovative factors in the backend optimization.
 
 Please refer to the paper "Wheel-Legged SLAM: an indoor LiDAR-Inertial SLAM integrating kinematic model of wheel-legged robots" for more details.
