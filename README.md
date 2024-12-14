@@ -50,7 +50,7 @@ source ~/catkin_ws/devel/setup.bash
 ```
 
 ## 3. Rosbag
-Here we provide a rosbag in the corridor scene. Please click the link to acquire this bag file: 
+We provide a package in the corridor scene to facilitate the running of our algorithm. Please click the link to acquire this bag file: 
 
 
 ## 4. Run
