@@ -4,7 +4,7 @@ We proposed the Wheel-Legged SLAM: an indoor LiDAR-Inertial SLAM integrating kin
 1) A taylored dual LiDAR system (including LIVOX AVIA and LIVOX MID360) to extend the robot's perception range.
 2) Two innovative factors in the backend optimization.
 
-Please refer to the paper "Wheel-Legged SLAM: an indoor LiDAR-Inertial SLAM integrating kinematic model of wheel-legged robots" for more details.
+Please refer to the paper "[Wheel-Legged SLAM: an indoor LiDAR-Inertial SLAM integrating kinematic model of wheel-legged robots](https://ieeexplore.ieee.org/document/10811879)" for more details.
 
 In this repository, we provide 3 packages:
 1) wheellegged_salm: This algorithm integrates FAST-LIO as the frontend and ISAM2 as the backend. The topic subscribed in this package include: a) the merged LiDAR topic: /livox/lidar, b) the IMU topic from AVIA: /livox/imu_3JEDL8C00164531, c) the joint angle topic of the wheel-legged robot: /joint_angle.
@@ -37,6 +37,8 @@ make
 sudo make install
 ```
 
+### 1.6. GTSAM
+Follow [GTSAM Installation](https://github.com/borglab/gtsam)
 
 ## 2. Build Wheel-legged SLAM
 Clone the repository and catkin_make:
