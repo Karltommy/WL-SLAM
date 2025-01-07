@@ -25,7 +25,7 @@ Follow [livox_ros_driver Installation](https://github.com/Livox-SDK/livox_ros_dr
 Follow [livox_ros_driver2 Installation](https://github.com/Livox-SDK/livox_ros_driver2)
 
 ### 1.5. **Sophus**
-We use the old version of Sophus
+We use the old version of Sophus.
 ```
 git clone https://github.com/strasdat/Sophus.git
 cd Sophus
