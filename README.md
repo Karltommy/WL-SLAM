@@ -73,19 +73,19 @@ rosbag play corridor.bag
 
 ## 5. Usage of the usbcan package (if needed)
 In the usbcan package, we use the ZLG USBCAN-II hardware to convert joint messages from the CAN protocol into the ROS topic. If you need to convert the robot joint controller's CAN signals to ROS topics, you can refer to the following steps to use this package. After connecting the upper-level industrial PC and the lower-level controller via the ZLG hardware:
-1) Check the USB devices recognized by the system
+1) Check the USB devices recognized by the system.
 ```
 lsusb
 ```
-2) Find the corresponding channel information of the hardware in the printed information
+2) Find the corresponding channel information of the hardware in the printed information.
 ```
 Bus xxx Device yyy: ID ...... Philips (or NXP)
 ```
-3) Obtain permission for the serial port channel
+3) Obtain permission for the serial port channel.
 ```
 sudo chmod 666 /dev/bus/usb/xxx/yyy
 ```
-4) Run the "receivecan" node
+4) Run the "receivecan" node.
 ```
 rosrun usbcan receivecan
 ```
